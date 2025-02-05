@@ -1,14 +1,16 @@
 import os
+from flask import request, jsonify  # Importar request y jsonify desde Flask
 from dotenv import load_dotenv
-from flask import request, jsonify
 
 # Cargar variables de entorno desde .env
 load_dotenv()
 
 def check_admin_auth():
+    # Aquí se usa request para obtener los headers de la solicitud
     username = request.headers.get("X-Admin-Username")
     password = request.headers.get("X-Admin-Password")
 
+    # Verifica si las credenciales son correctas
     if username != os.getenv("ADMIN_USERNAME") or password != os.getenv("ADMIN_PASSWORD"):
         return jsonify({"message": "Acceso denegado"}), 403
     return None
