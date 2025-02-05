@@ -1,0 +1,5 @@
+Flask==3.0.3
+Flasgger==0.9.7.1
+python-dotenv==1.0.1
+PyYAML==6.0.2
+jsonschema==4.23.0

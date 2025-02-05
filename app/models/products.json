@@ -1,0 +1,35 @@
+[
+    {
+        "name": "Retatos Ilustrados",
+        "currency": "$",
+        "subcategory": [
+            {
+                "name": "Una persona",
+                "img": "https://senora-garabato-images.s3.us-east-2.amazonaws.com/images/products-img/1p.JPG",
+                "description": "Retrato Ilustrado de una persona",
+                "price": 45
+            },
+            {
+                "name": "Dos personas",
+                "img": "https://senora-garabato-images.s3.us-east-2.amazonaws.com/images/products-img/2p.JPG",
+                "description": "Retrato Ilustrado de dos personas",
+                "price": 65
+            },
+            {
+                "name": "Tres personas",
+                "img": "https://senora-garabato-images.s3.us-east-2.amazonaws.com/images/products-img/3p.JPG",
+                "description": "Retrato Ilustrado de tres personas",
+                "price": 85
+            },
+            {
+                "name": "Cuatro personas",
+                "img": "https://senora-garabato-images.s3.us-east-2.amazonaws.com/images/products-img/4p.JPG",
+                "description": "Retrato Ilustrado de cuatro personas",
+                "price": 105
+            }
+        ],
+        "created_at": "2019-01-01T00:00:00Z",
+        "updated_at": "2019-01-01T00:00:00Z",
+        "id": 1
+    }
+]
