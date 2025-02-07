@@ -83,7 +83,7 @@ def create_order():
         }],
         "application_context": {
           "return_url": "http://localhost:4321/success",  # URL de redirección tras pago exitoso
-          "cancel_url": "http://localhost:4321/cart"  # URL si el usuario cancela el pago
+          "cancel_url": "http://localhost:4321/store"  # URL si el usuario cancela el pago
         }
     }
 
