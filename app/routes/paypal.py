@@ -80,7 +80,11 @@ def create_order():
                 }
             },
             "items": items
-        }]
+        }],
+        "application_context": {
+          "return_url": "http://localhost:4321/success",  # URL de redirección tras pago exitoso
+          "cancel_url": "http://localhost:4321/cart"  # URL si el usuario cancela el pago
+        }
     }
 
     response = requests.post(f"{PAYPAL_API_URL}/v2/checkout/orders", json=order_payload, headers=headers)
