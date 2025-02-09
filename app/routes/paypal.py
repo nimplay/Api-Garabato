@@ -82,8 +82,8 @@ def create_order():
             "items": items
         }],
         "application_context": {
-          "return_url": "http://localhost:4321/success",  # URL de redirección tras pago exitoso
-          "cancel_url": "http://localhost:4321/store"  # URL si el usuario cancela el pago
+          "return_url": "http://senoragarabato.com/success",  # URL de redirección tras pago exitoso
+          "cancel_url": "http://senoragarabato.com/store"  # URL si el usuario cancela el pago
         }
     }
 
